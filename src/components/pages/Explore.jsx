@@ -22,7 +22,7 @@ export const Explore=() =>{
   const [availableUserCount , setAvailableUserCount] = React.useState(0);
   const [currentPageNumber, setCurrentPageNumber] = React.useState(1);
   const [dataToDisplay, setDataToDisplay] = React.useState([]);
-  const TOTAL_VALUES_PER_PAGE = 5;
+  const TOTAL_VALUES_PER_PAGE = 10;
   
   React.useEffect(() => {
     const loadData = async () => {
