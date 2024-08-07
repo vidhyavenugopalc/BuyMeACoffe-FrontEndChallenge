@@ -1,0 +1,35 @@
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:200px;
+}
+.slide{
+    border-radius: 0.5ren;
+    box-shadow: 0px 0px 7px #666;
+    width:100%;
+    height:100%;
+}
+.arrow{
+    position:absolute;
+    width: 1rem;
+    height: 2rem;
+    color:white;
+}
+.arrow:hover {
+    cursor: pointer;
+}
+.arrow-left{
+    left:1rem;
+   
+}
+.arrow-right{
+    right:1rem;
+}
+.arrow-button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.modal-container{
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modals{
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    width: 25em;
+}
+.modals-heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.modals .add-button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    border: none;
+    background-color:#9b62e0 ;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px #ccc;
+    float:left;
+}
+.modals .modals-form-group{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.modals .modals-form-group input,
+.modals .modals-form-group select{
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+.modals .modals-form-group select{
+    width:57%;
+}
+.modals .modals-form-group label{
+    margin-bottom: 0.2rem;
+    margin-right: auto;
+}
+.modals .modals-form-group .radioButton {
+    display: "flex";
+    flex-direction: "row";
+    align-items: "center";
+    margin-right:15px;
+}
+.modals .modals-form-group .radioButton  .modalRadioLabel{
+    margin-left: 7px;
+    font-size: 17px;
+    color: #333,
+}
+.modals .modals-form-group .radio-button-group{
+    display:flex;
+    margin-right:6% ;
+}
+.close-icon{
+    border: none;
+    background-color: #fff;
+    float:right
+}

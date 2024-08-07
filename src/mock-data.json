@@ -1,0 +1,72 @@
+[
+    {
+        "id": 7281406,
+        "name": "Bheeshma Varman",
+        "email": "varman_bheeshma@ledner.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 7281405,
+        "name": "Baidehi Prajapat",
+        "email": "prajapat_baidehi@ohara-hilll.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7281404,
+        "name": "Shakti Pillai",
+        "email": "shakti_pillai@wilderman.test",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 7281403,
+        "name": "Bhaasvan Mehrotra",
+        "email": "bhaasvan_mehrotra@christiansen.test",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7281402,
+        "name": "Chandra Sinha DO",
+        "email": "do_chandra_sinha@lakin.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 7281401,
+        "name": "Acaryatanaya Desai",
+        "email": "desai_acaryatanaya@gleason.test",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7281400,
+        "name": "Veda Dutta",
+        "email": "veda_dutta@damore-steuber.test",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7281399,
+        "name": "Aditya Iyer",
+        "email": "aditya_iyer@morar.test",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 7281398,
+        "name": "Jagathi Bhat Sr.",
+        "email": "sr_bhat_jagathi@keeling-lang.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7281397,
+        "name": "Anurag Khan",
+        "email": "khan_anurag@dickinson-wolf.test",
+        "gender": "male",
+        "status": "inactive"
+    }
+]

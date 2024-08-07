@@ -1,0 +1,34 @@
+.modal-container{
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modals{
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    width: 25em;
+}
+.modals-heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.modals .modals-heading select{
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    margin-left: 1rem;
+}
+.close-icon{
+    border: none;
+    background-color: #fff;
+    float:right
+}

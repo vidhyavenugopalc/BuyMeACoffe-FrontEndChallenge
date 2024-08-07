@@ -1,0 +1,156 @@
+.table-wrapper{
+    width:100%;
+}
+.page-heading{
+    padding-left: 10%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.table{
+    display:block;
+    table-layout: fixed;
+    border-collapse: collapse;
+    white-space: nowrap;
+    max-width:80%;
+    margin: auto;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+}
+.table thead {
+    background-color: #ccc;
+}
+.table th{
+    color:#ccc;
+}
+.table th,
+.table td {
+    padding: 0.8rem;
+}
+.table td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.table tbody tr:hover{
+    background-color: #eee;
+}
+.name{
+    width:30%;
+}
+.email{
+    width:50%;
+}
+.action{
+    width: 10%;
+}
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+.actions svg{
+    cursor: pointer;
+    color: gray;
+}
+.edit{
+    background-color: #ddd;
+    border:none;
+    border-radius: 20px;
+    width:50px;
+}
+.table-wrapper .btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    border: none;
+    background-color:#9b62e0 ;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-top: 0px;
+}
+.table-wrapper .status-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    background-color:#fff ;
+    padding: 0.5rem 1rem;
+    margin-left: 43%;
+    margin-right: 2%;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.table-wrapper .head-wrapper{
+    display: flex;
+    margin-top: 2%;
+}
+.delete{
+ border: none;
+ background-color: #fff;
+}
+.pagination-container{
+    display: flex;
+    float:right;
+    margin-top: 20px;
+    margin-right:1%;
+}
+.page-no-dropdown{
+    width:13%;
+    margin-right: 10px;
+}
+.page-no-dropdown input{
+    width:100%;
+    text-align: center;
+    background-color: #9b62e0;
+    color: #fff;
+    
+}
+.pagination-button-container{
+    height:25px;
+}
+.pagination-button{
+    border: 1px solid #ccc;
+    background-color: #ffff;
+    width:30px;
+    height: 28px;
+    margin-left:5px;
+}
+
+@media screen and (min-width: 480px) 
+and (max-width: 1024px) { 
+    .page-heading{
+        
+        font-size: 20px;
+        
+    }
+    .table-wrapper .status-btn{ 
+        margin-left:28%;
+    }
+    .table{
+       
+        overflow-y: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .table-wrapper .head-wrapper{
+        display: block;
+        margin-top: 2%;
+    }
+    .page-heading{
+        
+        font-size: 20px;
+        
+    }
+    .table-wrapper .status-btn{ 
+        margin-left:10%;
+        display: inline-block;
+        margin-bottom:20px;
+    }
+    .table-wrapper .btn{
+        display: inline-block;
+        margin-bottom: 6px;
+    }
+}
